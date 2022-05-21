@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FloatActionButtonControl.Controls.FABControl" VerticalOptions="End" HorizontalOptions="End">    
+    <ContentView.Resources>
+        <Color x:Key="DarkButtonBackground">#921813</Color>
+        <Style x:Key="FABPrimary" TargetType="Button">
+            <Setter Property="CornerRadius" Value="100"/>
+            <Setter Property="BackgroundColor" Value="{StaticResource DarkButtonBackground}"/>
+            <Setter Property="HeightRequest" Value="55"/>
+            <Setter Property="WidthRequest" Value="55"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Margin" Value="0,0,0,15"/>
+        </Style>
+    </ContentView.Resources>
+    <AbsoluteLayout x:Name="parent" x:FieldModifier="public">
+        <Button x:Name="FABSub1" BackgroundColor="Blue"
+                IsVisible="True" Scale ="0" x:FieldModifier="public" Text="Sub1 Button" LineBreakMode="CharacterWrap"
+                AbsoluteLayout.LayoutFlags="None" Clicked="FabSub1_Clicked"
+                Style="{StaticResource FABPrimary}"  />
+        <Button x:Name="FABSub2" BackgroundColor="Green" 
+                IsVisible="True" Scale ="0" x:FieldModifier="public" Text="Sub2 Button" LineBreakMode="CharacterWrap"
+                AbsoluteLayout.LayoutFlags="None" Clicked="FabSub2_Clicked"
+                Style="{StaticResource FABPrimary}"  />
+        <Button x:Name="FABSub3" BackgroundColor="Gray"
+                IsVisible="True" Scale ="0" x:FieldModifier="public" Text="Sub3 Button" LineBreakMode="CharacterWrap"
+                AbsoluteLayout.LayoutFlags="None" Clicked="FabSub3_Clicked"
+                Style="{StaticResource FABPrimary}"  />
+        <Button x:Name="FABMain" Clicked="FABMain_Clicked"
+                IsVisible="True"
+                AbsoluteLayout.LayoutFlags="None"
+                Style="{StaticResource FABPrimary}"  />
+    </AbsoluteLayout>
+</ContentView>
