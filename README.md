@@ -8,6 +8,15 @@ Maui
 Xamarin Forms
  - 수동적 동작
 
+# 동작GIF
+[Scale1]
+
+![Scale1](https://user-images.githubusercontent.com/54387261/169631937-51dee643-9d65-4795-8d2f-b59df8802d8f.gif)
+
+[Sclae2]
+
+![Scale2](https://user-images.githubusercontent.com/54387261/169632014-40669d55-efdd-4161-8e12-c35c4b2c0df9.gif)
+
 # 문제1
 
 ![image](https://user-images.githubusercontent.com/54387261/169631346-ea87ca09-83d5-49e0-bc27-b2c0fc1cf370.png)
