@@ -6,7 +6,7 @@ Maui
  - 정상 동작
  
 Xamarin Forms
- - 수동적 동작
+ - 다른 깃허브 저장소로 공개예정
 
 # 동작GIF
 [Scale1]
