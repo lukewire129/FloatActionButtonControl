@@ -31,22 +31,22 @@ namespace FloatActionButtonControl.XamarinForms.Controls
                         var parent = thisOwner.parent;
                         if ((string)newValue == "Scale1")
                         {
-                                parent.HeightRequest = 200;
-                                parent.WidthRequest = 200;                                
-                                parent.SetLayoutBounds(thisOwner.FABSub1, new Rect(0, 100, -1, -1));
-                                parent.SetLayoutBounds(thisOwner.FABSub2, new Rect(25, 25, -1, -1));
-                                parent.SetLayoutBounds(thisOwner.FABSub3, new Rect(100, 0, -1, -1));
-                                parent.SetLayoutBounds(thisOwner.FABMain, new Rect(100, 100, -1, -1));
+                                //parent.HeightRequest = 200;
+                                //parent.WidthRequest = 200;                                
+                                //parent.SetLayoutBounds(thisOwner.FABSub1, new Rect(0, 100, -1, -1));
+                                //parent.SetLayoutBounds(thisOwner.FABSub2, new Rect(25, 25, -1, -1));
+                                //parent.SetLayoutBounds(thisOwner.FABSub3, new Rect(100, 0, -1, -1));
+                                //parent.SetLayoutBounds(thisOwner.FABMain, new Rect(100, 100, -1, -1));
                                 ani = new Scale(thisOwner.FABSub1, thisOwner.FABSub2, thisOwner.FABSub3);
                         }
                         else if ((string)newValue == "Scale2")
                         {
-                                parent.HeightRequest = 300;
-                                parent.WidthRequest = 120;
-                                parent.SetLayoutBounds(thisOwner.FABSub1, new Rect(20, 135, -1, -1));
-                                parent.SetLayoutBounds(thisOwner.FABSub2, new Rect(20, 65, -1, -1));
-                                parent.SetLayoutBounds(thisOwner.FABSub3, new Rect(20, 0, -1, -1));
-                                parent.SetLayoutBounds(thisOwner.FABMain, new Rect(20, 200, -1, -1));
+                                //parent.HeightRequest = 300;
+                                //parent.WidthRequest = 120;
+                                //parent.SetLayoutBounds(thisOwner.FABSub1, new Rect(20, 135, -1, -1));
+                                //parent.SetLayoutBounds(thisOwner.FABSub2, new Rect(20, 65, -1, -1));
+                                //parent.SetLayoutBounds(thisOwner.FABSub3, new Rect(20, 0, -1, -1));
+                                //parent.SetLayoutBounds(thisOwner.FABMain, new Rect(20, 200, -1, -1));
                                 ani = new Scale(thisOwner.FABSub1, thisOwner.FABSub2, thisOwner.FABSub3);
                         }
                 }));

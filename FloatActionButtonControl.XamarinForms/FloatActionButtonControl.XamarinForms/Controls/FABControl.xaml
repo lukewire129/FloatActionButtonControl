@@ -13,22 +13,50 @@
             <Setter Property="Margin" Value="0,0,0,15"/>
         </Style>
     </ContentView.Resources>
-    <AbsoluteLayout x:Name="parent" x:FieldModifier="public">
+    <!--Scale1 사용하고자 할때-->
+    <AbsoluteLayout x:Name="parent" x:FieldModifier="public" HeightRequest="200" WidthRequest="200">
         <Button x:Name="FABSub1" BackgroundColor="Blue"
                 IsVisible="True" Scale ="0" x:FieldModifier="public" Text="Sub1 Button"
                 AbsoluteLayout.LayoutFlags="None" Clicked="FabSub1_Clicked"
+                AbsoluteLayout.LayoutBounds="0, 100, AutoSize, AutoSize"
                 Style="{StaticResource FABPrimary}"  />
         <Button x:Name="FABSub2" BackgroundColor="Green" 
                 IsVisible="True" Scale ="0" x:FieldModifier="public" Text="Sub2 Button"
                 AbsoluteLayout.LayoutFlags="None" Clicked="FabSub2_Clicked"
+                AbsoluteLayout.LayoutBounds="25, 25, AutoSize, AutoSize"
                 Style="{StaticResource FABPrimary}"  />
         <Button x:Name="FABSub3" BackgroundColor="Gray"
                 IsVisible="True" Scale ="0" x:FieldModifier="public" Text="Sub3 Button"
                 AbsoluteLayout.LayoutFlags="None" Clicked="FabSub3_Clicked"
+                AbsoluteLayout.LayoutBounds="100, 0, AutoSize, AutoSize"
                 Style="{StaticResource FABPrimary}"  />
         <Button x:Name="FABMain" Clicked="FABMain_Clicked"
                 IsVisible="True"
                 AbsoluteLayout.LayoutFlags="None"
+                AbsoluteLayout.LayoutBounds="100, 100, AutoSize, AutoSize"
                 Style="{StaticResource FABPrimary}"  />
     </AbsoluteLayout>
+    <!--Scale2 사용하고자 할때-->
+    <!--<AbsoluteLayout x:Name="parent" x:FieldModifier="public" HeightRequest="300" WidthRequest="120">
+        <Button x:Name="FABSub1" BackgroundColor="Blue"
+                IsVisible="True" Scale ="0" x:FieldModifier="public" Text="Sub1 Button"
+                AbsoluteLayout.LayoutFlags="None" Clicked="FabSub1_Clicked"
+                AbsoluteLayout.LayoutBounds="20, 135, AutoSize, AutoSize"
+                Style="{StaticResource FABPrimary}"  />
+        <Button x:Name="FABSub2" BackgroundColor="Green" 
+                IsVisible="True" Scale ="0" x:FieldModifier="public" Text="Sub2 Button"
+                AbsoluteLayout.LayoutFlags="None" Clicked="FabSub2_Clicked"
+                AbsoluteLayout.LayoutBounds="20, 65, AutoSize, AutoSize"
+                Style="{StaticResource FABPrimary}"  />
+        <Button x:Name="FABSub3" BackgroundColor="Gray"
+                IsVisible="True" Scale ="0" x:FieldModifier="public" Text="Sub3 Button"
+                AbsoluteLayout.LayoutFlags="None" Clicked="FabSub3_Clicked"
+                AbsoluteLayout.LayoutBounds="20, 0, AutoSize, AutoSize"
+                Style="{StaticResource FABPrimary}"  />
+        <Button x:Name="FABMain" Clicked="FABMain_Clicked"
+                IsVisible="True"
+                AbsoluteLayout.LayoutFlags="None"
+                AbsoluteLayout.LayoutBounds="20, 200, AutoSize, AutoSize"
+                Style="{StaticResource FABPrimary}"  />
+    </AbsoluteLayout>-->
 </ContentView>
