@@ -1,6 +1,5 @@
 # FloatActionButtonControl
-
-해당 프로젝트는 
+Samples built with .NET Multi-platform App UI (.NET MAUI).
 
 Maui
  - 정상 동작
