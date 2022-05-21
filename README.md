@@ -6,7 +6,7 @@ Maui
  - 정상 동작
  
 Xamarin Forms
- - 다른 깃허브 저장소로 공개예정
+ - 다른 깃허브 저장소로 공개 (https://github.com/Luke-leeCoder/FABControl_XamarinForms.git)
 
 # 동작GIF
 [Scale1]
